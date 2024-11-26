@@ -55,7 +55,6 @@ a{
 .container img{
     width: 35vw;
     height: auto;
-    
 }
 
 .container-starbucks{
@@ -86,6 +85,16 @@ a{
     background-color: #D20B33;
 }
 
+#gemelo-rojo{
+    background-color: #F3BADA;
+    color: #D20B33;
+}
+
+#gemelo-azul{
+    background-color: #9BCBE3;
+   color: #0D4555;
+}
+
 #botón-conoce-más{
     background-color: #D20B33;
     color: white;
@@ -97,8 +106,93 @@ a{
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease;
+    font-weight: 700;
 }
 
 #botón-conoce-más:hover{
     background-color: #DA626E;
+}
+
+#botón-rojo{
+    background-color: #F3BADA;
+    color: #D50B3A;
+    border: 1px solid #D50B3A;
+    border-radius: 50px;
+    width: 10vw;
+    height: 5vh;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 700;
+}
+
+#botón-rojo:hover{
+    background-color: #fad3e9;
+}
+
+#azulito{
+    background-color: #9BCBE3;
+    color: #0D4555;
+    border: 1px solid #0D4555;
+    border-radius: 50px;
+    width: 10vw;
+    height: 5vh;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 700;
+}
+
+#azulito:hover{
+    background-color:#bde0f1;
+}
+
+.containers{
+    width: 34vw;
+    height: 39vw;
+    display: flex;
+    flex-direction:column;
+    color: white;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.gemelos{
+    display: flex;
+}
+
+#imagen-abajo{
+    width: 34vw;
+    height: auto;
+}
+
+#gemelo-rojo{
+    margin-right: 2vw;
+}
+
+.footer{
+    color: gray;
+}
+
+.listas{
+    display: flex;
+    flex-direction: row;
+    color: gray;
+}
+
+#listas-pie{
+    display: flex;
+    flex-direction:column;
+    list-style: none;
+    color: gray;
+    align-items: center;
+}
+
+.aviso{
+    display: flex;
+    flex-direction: row;
+    color: gray;
+    margin-right: 39px;
 }
