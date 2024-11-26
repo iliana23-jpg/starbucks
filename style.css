@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+nav img{
+    width: 5vw;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.navbar-left{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20vw;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+a{
+    color: #303030;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.container{
+    width: 70vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.container img{
+    width: 35vw;
+    height: auto;
+    
+}
+
+.container-starbucks{
+    padding: 5%;
+    text-align: center;
+    font-size: 15px;
+}
+
+#container-verde{
+    background-color: #1C3C34;
+}
+
+#container-azul{
+    background-color: #1647B0;
+    flex-direction: row-reverse;
+}
+
+#container-rojo{
+    background-color: #D20B33;
+}
+
+#container-2doverde{
+    background-color: #1C3C34;
+    flex-direction: row-reverse;
+}
+
+#container-2dorojo{
+    background-color: #D20B33;
+}
+
+#botón-conoce-más{
+    background-color: #D20B33;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 10vw;
+    height: 5vh;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#botón-conoce-más:hover{
+    background-color: #DA626E;
+}
